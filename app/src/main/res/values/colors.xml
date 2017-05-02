@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgroudtoolbar">#183545</color>
+    <color name="bgWhite">#FFF</color>
+    <color name="bgLogo">#f67122</color>
+    <color name="bgGray">#CCC</color>
+    <color name="colorFacebook">#4a6ea9</color>
+    <color name="colorGoogle">#da4835</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorRed">#FFE42209</color>
+    <color name="transparentblack">#B2000000</color>
+    <color name="colordotInActive">#a2bcca</color>
+
+</resources>

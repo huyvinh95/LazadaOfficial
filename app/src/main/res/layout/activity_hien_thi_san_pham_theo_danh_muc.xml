@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hien_thi_san_pham_theo_danh_muc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vnh.lazadaofficial.View.HienThiSanPhamTheoDanhMuc.HienThiSanPhamTheoDanhMucActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbarDanhMuc"
+            app:layout_scrollFlags="scroll|enterAlways"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/bgWhite"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lọc"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:background="@color/bgWhite"
+                    android:textColor="@color/backgroudtoolbar"
+                    android:drawableLeft="@drawable/filter"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/bgWhite"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sắp xếp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:background="@color/bgWhite"
+                    android:textColor="@color/backgroudtoolbar"
+                    android:drawableLeft="@drawable/sort"/>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/backgroudtoolbar" />
+            <Button
+                android:id="@+id/danggrid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/bgWhite"
+                android:drawableLeft="@drawable/ic_view_list_black_24dp"/>
+
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerHienThiSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+</android.support.design.widget.CoordinatorLayout>

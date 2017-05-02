@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vnh.lazadaofficial">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_id" />
+
+        <activity
+            android:name=".View.ManHinhChao.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.TrangChu.TrangChuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.DangNhap.DangNhapActivity"
+            android:label="Đăng nhập/ Đăng kí" />
+        <activity android:name=".View.HienThiSanPhamTheoDanhMuc.HienThiSanPhamTheoDanhMucActivity" />
+        <activity android:name=".View.ChiTietSanPham.ChiTietSanPhamActivity" />
+        <activity
+            android:name=".View.DanhGia.DanhGiaActiviti"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" />
+        <activity android:name=".View.DanhGia.XemThemNhanXet" />
+        <activity android:name=".View.GioHang.GioHangActivity"></activity>
+    </application>
+
+</manifest>

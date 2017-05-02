@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerDienTuTong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="3dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/backgroundplashscreen" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/backgroundplashscreen" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@color/transparentblack"
+                            android:gravity="center"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="30dp"
+                            android:text="Top SKU Bán Chạy Trong Tháng"
+                            android:textAlignment="center"
+                            android:textColor="@color/bgWhite" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/backgroundplashscreen" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@color/transparentblack"
+                            android:gravity="center"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="30dp"
+                            android:text="Top SmartPhone Chất Lượng Giá Rẻ"
+                            android:textAlignment="center"
+                            android:textColor="@color/bgWhite" />
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/backgroundplashscreen" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@color/transparentblack"
+                            android:gravity="center"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="30dp"
+                            android:text="Camera Hành Động Palariod"
+                            android:textAlignment="center"
+                            android:textColor="@color/bgWhite" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/backgroundplashscreen" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@color/transparentblack"
+                            android:gravity="center"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:text="Tivi Đặc Biệt Dành Cho Các Tỉnh Thành Lớn"
+                            android:textAlignment="center"
+                            android:textColor="@color/bgWhite" />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/anh1"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/backgroundplashscreen" />
+
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:background="@color/transparentblack"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:text="Tivi Đặc Biệt Dành Cho Các Tỉnh Thành Lớn"
+                            android:textAlignment="center"
+                            android:textColor="@color/bgWhite"
+                            android:textSize="10dp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/anh2"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/backgroundplashscreen" />
+
+                        <TextView
+
+                            android:id="@+id/txt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:background="@color/transparentblack"
+                            android:gravity="center"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:text="Tivi Đặc Biệt Dành Cho Các Tỉnh Thành Lớn"
+                            android:textAlignment="center"
+                            android:textColor="@color/bgWhite"
+                            android:textSize="10dp" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:id="@+id/anh3"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/backgroundplashscreen" />
+
+                        <TextView
+                            android:id="@+id/txt3"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom"
+                            android:background="@color/transparentblack"
+                            android:gravity="center"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+                            android:text="Tivi Đặc Biệt Dành Cho Các Tỉnh Thành Lớn"
+                            android:textAlignment="center"
+                            android:textColor="@color/bgWhite"
+                            android:textSize="10dp" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Top Các Thương Hiệu Lớn" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerTopCacThuongHieuLon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Hàng Mới Về" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerHangMoiVe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

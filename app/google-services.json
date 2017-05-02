@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "277866150395",
+    "project_id": "project-216668029841497584"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277866150395:android:e344f2cb5b76de45",
+        "android_client_info": {
+          "package_name": "com.vnh.lazadaofficial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277866150395-89kcbdrb9behrkbhkvkloavp5o4es80a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vnh.lazadaofficial",
+            "certificate_hash": "4A8AF19740E5D8211CEE5DE5E99FA84E7E5BEFB0"
+          }
+        },
+        {
+          "client_id": "277866150395-3rfa8omi0qnb7n2atjrr1f0dae7mgdub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8DVke3W5Y_iNBXBrtVrci5c_pQ44SU5Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
